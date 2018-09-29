@@ -1,0 +1,26 @@
+{
+  "name": "super-chat",
+  "version": "0.1.0",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "ejs": "^2.5.7",
+    "ent": "~0.1.0",
+    "express": "^3.3.8",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "socket.io": "^1.7.4",
+    "webpack": "^4.9.1"
+  },
+  "author": "Mateo21 <mateo21@email.com>",
+  "description": "A real-time super chat with socket .io",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "license": "ISC"
+}
